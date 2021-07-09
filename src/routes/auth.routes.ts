@@ -8,3 +8,5 @@ router.post('/auth/login', AuthController.login);
 router.post('/auth/validate', AuthController.validate);
 
 export default router;
+
+
