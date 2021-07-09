@@ -20,3 +20,5 @@ if((controllerFiles.edited || routeFiles.edited) && !docs.edited) {
 if(!changelog.edited) {
     warn("Não foram detectadas mudanças no changelog. Por favor, verifique as nossas regras sobre CHANGELOG [aqui](https://google.com).")
 }
+
+console.log(danger.github.pr);
